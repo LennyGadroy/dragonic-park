@@ -16,8 +16,8 @@ nav a{display:block;padding:8px 16px;text-decoration:none;font:17px var(--displa
 nav a:hover,nav a[aria-current]{background:var(--blue);color:#fff}
 nav a.soon{border:1px dashed #000}
 /* hero */
-.hero{background:#fff;color:#000;text-align:center;padding:56px 0 80px}
-.emblem{display:block;width:min(520px,88vw);height:auto;margin:0 auto 24px}
+.hero{background:#fff;color:#000;text-align:center;padding:40px 0 64px}
+.emblem{display:block;width:min(240px,60vw);height:auto;margin:0 auto 20px}
 .hero h1{font-size:clamp(46px,9vw,100px);color:var(--blue);text-transform:uppercase}
 .hero p{max-width:640px;margin:18px auto 30px;font-size:20px}
 .btn{display:inline-block;padding:14px 28px;background:var(--blue);color:#fff;text-decoration:none;font:20px var(--display);letter-spacing:.08em;text-transform:uppercase;border:3px solid var(--blue)}
