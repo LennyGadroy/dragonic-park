@@ -63,6 +63,12 @@ h2{font-size:clamp(34px,5vw,56px);text-transform:uppercase;margin-bottom:20px}
 .site-footer a:focus-visible{outline:3px solid #fff;outline-offset:3px;box-shadow:none}
 .foot-bottom{background:var(--blue);color:#fff}
 .foot-bottom .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-top:14px;padding-bottom:14px}.foot-bottom p{margin:0;font-size:16px}
+.site-footer nav ul{display:flex;flex-direction:column;gap:0}
+.site-footer nav a{display:inline-block;font:17px/1.5 var(--body);letter-spacing:0;text-transform:none;padding:2px 0}
+.site-footer nav a:hover{background:none;color:#fff}
+.foot-logo{display:inline-block;background:#fff;padding:10px;margin-bottom:16px;border:0}
+.foot-logo:hover{padding-left:10px!important;border:0}
+.foot-logo img{display:block;width:150px;height:auto}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media(max-width:860px){.foot-grid{grid-template-columns:1fr 1fr}.grid,.info,.policy,.shop{grid-template-columns:1fr 1fr}.cols{grid-template-columns:1fr}}
 @media(max-width:560px){.foot-grid{grid-template-columns:1fr}.grid,.info,.policy,.shop,.stats{grid-template-columns:1fr}.btn.alt{margin:12px 0 0}}
