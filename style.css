@@ -83,7 +83,8 @@ html::-webkit-scrollbar,body::-webkit-scrollbar{display:none;width:0;height:0}
 .chip{font:18px var(--display);letter-spacing:.06em;text-transform:uppercase;padding:8px 20px;border:3px solid #000;background:#fff;color:#000;cursor:pointer}
 .chip:hover{background:#000;color:#fff}.chip[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:#fff}
 .card[hidden]{display:none}
-.facts{margin:14px 0 0;display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:16px}.facts dt{font-weight:700;color:var(--blue)}.facts dd{margin:0}
+.facts{margin:14px 0 0;display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:16px}.facts dt{font-weight:700;color:var(--blue);}.facts dd{margin:0;white-space: nowrap;overflow: hidden;text-overflow:ellipsis;}
+.dragons .card-body p {display:-webkit-box;-webkit-box-orient:vertical;line-clamp:var(--black);-webkit-line-clamp:2;overflow:hidden}
 .steps{list-style:none;counter-reset:s;display:grid;grid-template-columns:repeat(5,1fr);gap:16px;padding:0;margin:32px 0 0}
 .steps li{counter-increment:s;background:#fff;color:#000;padding:20px;border-top:8px solid #000}.steps li::before{content:counter(s);font:36px var(--display);color:var(--blue)}.steps h3{font-size:26px;margin:4px 0 8px}.steps p{margin:0;font-size:16px}
 .plans{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:32px}
