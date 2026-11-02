@@ -66,8 +66,7 @@ h2{font-size:clamp(34px,5vw,56px);text-transform:uppercase;margin-bottom:20px}
 .site-footer nav ul{display:flex;flex-direction:column;gap:0}
 .site-footer nav a{display:inline-block;font:17px/1.5 var(--body);letter-spacing:0;text-transform:none;padding:2px 0}
 .site-footer nav a:hover{background:none;color:#fff}
-.foot-logo{display:inline-block;background:#fff;padding:10px;margin-bottom:16px;border:0}
-.foot-logo:hover{padding-left:10px!important;border:0}
+.foot-logo{display:inline-block;padding:10px;margin-bottom:16px;border:0}
 .foot-logo img{display:block;width:150px;height:auto}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media(max-width:860px){.foot-grid{grid-template-columns:1fr 1fr}.grid,.info,.policy,.shop{grid-template-columns:1fr 1fr}.cols{grid-template-columns:1fr}}
